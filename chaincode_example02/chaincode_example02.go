@@ -1,20 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @tyronestarve
- Watch 1
-  Star 0
-  Fork 11 masterDev1985/hyperledger_chaincode
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs
-Branch: master Find file Copy pathhyperledger_chaincode/chaincode_example02/chaincode_example02.go
-26dfd77  on Apr 14
-@masterDev1985 masterDev1985 Init, Invoke, and Query ARE in the new chaincode spec
-1 contributor
-RawBlameHistory     
-229 lines (186 sloc)  6.13 KB
 /*
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements.  See the NOTICE file
@@ -23,7 +6,9 @@ regarding copyright ownership.  The ASF licenses this file
 to you under the Apache License, Version 2.0 (the
 "License"); you may not use this file except in compliance
 with the License.  You may obtain a copy of the License at
+
   http://www.apache.org/licenses/LICENSE-2.0
+
 Unless required by applicable law or agreed to in writing,
 software distributed under the License is distributed on an
 "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
@@ -241,5 +226,3 @@ func main() {
 		fmt.Printf("Error starting Simple chaincode: %s", err)
 	}
 }
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help
